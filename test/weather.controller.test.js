@@ -1,8 +1,10 @@
 let CONTROLLER;
 let DTO;
-let API;
 const mock_GET = jest.fn();
 require("dotenv").config({ path: `.env` });
+
+//IMPORTANT
+//I was unable to achieve 100% coverage of the test suite.
 
 beforeAll(() => {
   jest.mock("axios", () => ({
@@ -10,11 +12,10 @@ beforeAll(() => {
   }));
 });
 
-describe("Check temp test", () => {
+describe("CHECK TEMP TEST", () => {
   beforeAll(() => {
     CONTROLLER = require("../controllers/weather/weather.controller");
     DTO = require("../controllers/weather/weather.dto");
-    API = require("../api/weatherApi");
   });
 
   beforeEach(() => {

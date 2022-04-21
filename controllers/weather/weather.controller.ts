@@ -1,6 +1,11 @@
 import { FastifyReply, FastifyRequest } from "fastify"
 import { getAndCheckWeather } from "./weather.dto"
 
+
+//IMPORTANT!!
+//Something to improve would be the error handling, since currently only 500 errors are thrown (internal server error)
+
+
 // type of the query
 type WeatherQuery = {
   toCheck: number;
