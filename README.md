@@ -14,9 +14,9 @@
 2. Perform a get query to [localhost:3000/](http://localhost:3000/?checkFor=greater)
 
 ## Parameters available
-1 - toCheck = value of temperature to check (default 15)
-2 - checkFor = can be greater or less (required)
-3 - lat = latitude (default -33.121092891443574)
-4 - lon = longitude (default -64.35266204751336)
+1. - toCheck = value of temperature to check (default 15)
+2. - checkFor = can be greater or less (required)
+3. - lat = latitude (default -33.121092891443574)
+4. - lon = longitude (default -64.35266204751336)
 
 The default values of latitude and longitude correspond to Río Cuarto Argentina
